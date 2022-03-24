@@ -10,7 +10,7 @@
 
 **Estado:** Finalizado (sujeto a modificaciones)
 
-**Descripción:** El presente proyecto básico posee las operaciones básicas de cualquier sistema de información CRUD sobre la gestión de libros, es a modo de ejemplo para entender
+**Descripción:** El presente sistema posee las operaciones básicas de cualquier sistema de información CRUD sobre la gestión de libros, es a modo de ejemplo para entender
 cómo se trabaja en esta tecnología. Estará conectada con MySQL y se utilizará el Framework de Bootstrap para la interfaz gráfica.
 
 ### Instalación
@@ -28,6 +28,3 @@ En el caso de no existir las instalamos
 
 `$ pip3 install Pillow` y luego 
 `$ pip3 install PyMySQL`
-
-A disfrutar!!!
-
