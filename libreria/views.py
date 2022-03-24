@@ -6,8 +6,8 @@ from .forms import LibroForm
 def inicio(request): #función que permite acceder a la vista
     return render(request, 'paginas/inicio.html')
 
-def nosotros(request):#Renderizar documento html
-    return render(request, 'paginas/nosotros.html')
+def acerca(request):#Renderizar documento html
+    return render(request, 'paginas/acerca.html')
 def libros(request):
     #obtenemos todos los libros
     libros = Libro.objects.all()
@@ -20,8 +20,15 @@ def crear(request):
         return redirect('libros')
     return render(request, 'libros/crear.html', {'formulario': formulario})
 
-def editar(request):
-    return render(request, 'libros/editar.html')
+def editar(request, id):
+    #Creamos la consulta de libro a través del método get
+    libro = Libro.objects.get(id=id)
+    #Pasamos esa consulta al formulario para que muestre los datos
+    formulario = LibroForm(request.POST or None, request.FILES or None, instance=libro)
+    if formulario.is_valid() and request.method == 'POST':
+        formulario.save()
+        return redirect('libros')
+    return render(request, 'libros/editar.html', {'formulario': formulario})
 
 def eliminar(request, id):
     libro = Libro.objects.get(id=id)

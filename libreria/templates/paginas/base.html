@@ -16,13 +16,14 @@
           <div class="nav navbar-nav">
               <a class="nav-item nav-link active" href="{% url 'inicio' %}">Inicio</a>
               <a class="nav-item nav-link active" href="{% url 'libros' %}">Libros</a>
-              <a class="nav-item nav-link active" href="{% url 'nosotros' %}">Nosotros</a>
+              <a class="nav-item nav-link active" href="{% url 'acerca' %}">Acerca del sitio</a>
           </div>
       </nav>
 
     <div class="container">
         <div class="row">
             <div class="col-12">
+            </br>
                 {% block contenido %} {% endblock %}
             </div>
         </div>
