@@ -20,7 +20,7 @@ Se debe tener en cuenta la instalación de 2 bibliotecas en el proyecto
 
 >PyMSQL
 
-Verificamos nuestras librerias con el comando
+Por X motivos, verificamos nuestras librerias con el comando
 
 `$ pip3 list`
 
