@@ -6,7 +6,7 @@
 
 **Escrito en:** Python v3.9
 
-**Framework:** Django
+**Framework:** Django v4.0.3
 
 **Estado:** Finalizado (sujeto a modificaciones)
 
