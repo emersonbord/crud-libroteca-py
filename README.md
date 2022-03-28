@@ -4,7 +4,7 @@
 
 **Fecha:** 23-03-2022
 
-**Escrito en:** Python
+**Escrito en:** Python v3.9
 
 **Framework:** Django
 
