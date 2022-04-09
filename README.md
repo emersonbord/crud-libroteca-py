@@ -15,7 +15,7 @@ cómo se trabaja en esta tecnología. Estará conectada con MySQL y se utilizar�
 
 ### Instalación
 
-Se debe tener en cuenta la instalación de 2 bibliotecas en el proyecto
+Se debe tener en cuenta la instalación de 2 bibliotecas en el proyecto que son las siguientes:
 >Pillow
 
 >PyMSQL
