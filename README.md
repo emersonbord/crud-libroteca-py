@@ -28,3 +28,7 @@ En el caso de no existir las instalamos
 
 `$ pip3 install Pillow` y luego 
 `$ pip3 install PyMySQL`
+
+Levantamos el proyecto con
+
+`$ python manage.py runserver`
